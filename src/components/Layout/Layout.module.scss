@@ -1,0 +1,44 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ecf0f3;
+  padding: 1rem;
+}
+
+.layout__top {
+  height: 60px;
+  width: 100%;
+  background: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.layout__content {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.layout__nav {
+  width: 250px;
+  min-width: 250px;
+  background: #222;
+  color: white;
+  padding: 20px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+}
+
+.layout__page {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  width: 100%;
+}
