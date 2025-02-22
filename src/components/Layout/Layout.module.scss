@@ -5,7 +5,6 @@
   width: 100%;
   box-sizing: border-box;
   background-color: #ecf0f3;
-  padding: 1rem;
 }
 
 .layout__top {
@@ -31,14 +30,12 @@
   min-width: 250px;
   background: #222;
   color: white;
-  padding: 20px;
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
 }
 
 .layout__page {
   flex-grow: 1;
-  padding: 20px;
   overflow-y: auto;
   width: 100%;
 }
