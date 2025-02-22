@@ -6,12 +6,10 @@
   padding-top: 5rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 
-
   &.dark {
     background: #333;
     color: #fff;
     box-shadow: 2px 2px 5px rgba(77, 77, 77, 0.2);
-
   }
 }
 
@@ -39,7 +37,6 @@
   &:hover {
     color: #787989;
     text-decoration: underline;
-    
   }
 }
 
