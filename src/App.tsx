@@ -13,7 +13,6 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="products" element={<Products />} />
-
             <Route path="orders" element={<Orders />} />
           </Route>
         </Routes>
