@@ -37,13 +37,17 @@ const TopMenu = () => {
         <img className={styles.topMenu__image} src={logo} alt="Logo" />
       </div>
       <div className={styles.topMenu__data}>
-        <div className={styles.topMenu__time}>
-          {time.toLocaleDateString()} {formatTime(time)}
+        <button className={styles.theme__button} onClick={toggleTheme}>
+          Dark <br /> Lighi
+        </button>
+        <div className={styles.timeSession__container}>
+          <div className={styles.topMenu__time}>
+            {time.toLocaleDateString()} {formatTime(time)}
+          </div>
+          <div className={styles.topMenu__sessions}>
+            Sessions : {sessionCount}
+          </div>
         </div>
-        <div className={styles.topMenu__sessions}>
-          Sessions : {sessionCount}
-        </div>
-        <button onClick={toggleTheme}>Toggle Theme</button>
       </div>
     </div>
   );
