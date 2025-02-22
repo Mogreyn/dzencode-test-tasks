@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import Products from '@/pages/Products';
 import NavigationMenu from '@/components/NavigationMenu/NavigationMenu';
 import TopMenu from '@/components/TopMenu/TopMenu';
 import styles from './Layout.module.scss';
@@ -16,7 +16,7 @@ const Layout: React.FC = () => {
       <div className={styles.layout__content}>
         <NavigationMenu />
         <main className={styles.layout__page}>
-          <Outlet />
+          <Products />
         </main>
       </div>
     </div>
