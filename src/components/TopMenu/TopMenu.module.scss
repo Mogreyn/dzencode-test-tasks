@@ -1,0 +1,66 @@
+.topMenu {
+  height: 60px;
+  width: 100%;
+  background: #fff;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+
+  &.dark {
+    background: #333;
+    color: #fff;
+  }
+}
+
+.topMenu__logo {
+  width: 50px;
+  height: 50px;
+}
+
+.topMenu__image {
+  width: 100%;
+  height: 100%;
+}
+
+.topMenu__data {
+  display: flex;
+  width: 200px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.theme__button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 0.3rem;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s,
+    border-color 0.3s;
+
+  &:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+  }
+
+  &.dark {
+    background-color: #fff;
+    color: #fff;
+    border-color: #666;
+  }
+
+  &.dark:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
